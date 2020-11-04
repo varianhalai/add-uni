@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/add-uni/static/css/main.412559b2.chunk.css",
+    "main.js": "/add-uni/static/js/main.f87d1124.chunk.js",
+    "main.js.map": "/add-uni/static/js/main.f87d1124.chunk.js.map",
+    "runtime-main.js": "/add-uni/static/js/runtime-main.c316a25c.js",
+    "runtime-main.js.map": "/add-uni/static/js/runtime-main.c316a25c.js.map",
+    "static/js/2.bd9ace7f.chunk.js": "/add-uni/static/js/2.bd9ace7f.chunk.js",
+    "static/js/2.bd9ace7f.chunk.js.map": "/add-uni/static/js/2.bd9ace7f.chunk.js.map",
+    "static/js/3.8cc40f2a.chunk.js": "/add-uni/static/js/3.8cc40f2a.chunk.js",
+    "static/js/3.8cc40f2a.chunk.js.map": "/add-uni/static/js/3.8cc40f2a.chunk.js.map",
+    "index.html": "/add-uni/index.html",
+    "static/css/main.412559b2.chunk.css.map": "/add-uni/static/css/main.412559b2.chunk.css.map",
+    "static/js/2.bd9ace7f.chunk.js.LICENSE.txt": "/add-uni/static/js/2.bd9ace7f.chunk.js.LICENSE.txt",
+    "static/media/coin.3036f619.jpg": "/add-uni/static/media/coin.3036f619.jpg",
+    "static/media/download-metamask.d5ed3214.png": "/add-uni/static/media/download-metamask.d5ed3214.png",
+    "static/media/switch-network.7edd19b2.jpg": "/add-uni/static/media/switch-network.7edd19b2.jpg",
+    "static/media/uni.84bcef9e.png": "/add-uni/static/media/uni.84bcef9e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c316a25c.js",
+    "static/js/2.bd9ace7f.chunk.js",
+    "static/css/main.412559b2.chunk.css",
+    "static/js/main.f87d1124.chunk.js"
+  ]
+}
