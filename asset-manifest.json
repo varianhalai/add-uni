@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/add-uni/static/css/main.412559b2.chunk.css",
-    "main.js": "/add-uni/static/js/main.f87d1124.chunk.js",
-    "main.js.map": "/add-uni/static/js/main.f87d1124.chunk.js.map",
+    "main.js": "/add-uni/static/js/main.09dcefa3.chunk.js",
+    "main.js.map": "/add-uni/static/js/main.09dcefa3.chunk.js.map",
     "runtime-main.js": "/add-uni/static/js/runtime-main.c316a25c.js",
     "runtime-main.js.map": "/add-uni/static/js/runtime-main.c316a25c.js.map",
     "static/js/2.bd9ace7f.chunk.js": "/add-uni/static/js/2.bd9ace7f.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.c316a25c.js",
     "static/js/2.bd9ace7f.chunk.js",
     "static/css/main.412559b2.chunk.css",
-    "static/js/main.f87d1124.chunk.js"
+    "static/js/main.09dcefa3.chunk.js"
   ]
 }
