@@ -25,7 +25,7 @@ class AddTokenPanel extends Component {
         tokenSymbol = 'UNI',
         tokenDecimals = 18,
         tokenAddress = uniAddress,
-        tokenImage = uni,
+        tokenImage = "https://i.imgur.com/6HqVcZe.png",
         tokenNet = '1',
         message = '',
         errorMessage = '',
