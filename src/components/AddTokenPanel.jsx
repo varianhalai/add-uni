@@ -15,14 +15,14 @@ import logo from '../assets/coin.jpg';
 import uni from '../assets/uni.png'
 import queryString from 'querystringify'
 
-const uniAddress = '0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984';
+const uniAddress = '0x514906FC121c7878424a5C928cad1852CC545892';
 
 class AddTokenPanel extends Component {
 
   constructor (props) {
     const {
-      tokenName = 'UNI',
-        tokenSymbol = 'UNI',
+      tokenName = 'UNI-V2',
+        tokenSymbol = 'UNI-V2',
         tokenDecimals = 18,
         tokenAddress = uniAddress,
         tokenImage = "https://i.imgur.com/6HqVcZe.png",
