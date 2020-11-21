@@ -123,6 +123,10 @@ class AddTokenPanel extends Component {
 
           <Button
             onClick = {async (event) => {
+              this.setState({
+                errorMessage: '',
+                message: '',
+              })
               const provider = window.web3.currentProvider
               provider.sendAsync({
                 method: 'metamask_watchAsset',
@@ -136,19 +140,27 @@ class AddTokenPanel extends Component {
                   },
                 },
                 id: Math.round(Math.random() * 100000),
-              }, (err, added) => {
-                console.log('provider returned', err, added)
-                if (err || 'error' in added) {
+              }, (err, result) => {
+                console.log('provider returned', err, result)
+                if(err) {
                   this.setState({
-                    errorMessage: 'There was a problem adding the token.',
+                    errorMessage: 'An error has occurred, token could not be added.',
                     message: '',
                   })
-                  return
+                }else {
+                  if (result.result) {
+                    this.setState({
+                      errorMessage: '',
+                      message: 'Token was added to wallet!',
+                    })
+                  } else {
+                    this.setState({
+                      errorMessage: '',
+                      message: 'Token has not been added to wallet.',
+                    })
+                  }
                 }
-                this.setState({
-                  message: 'Token added!',
-                  errorMessage: '',
-                })
+                
               })
             }}
           >Watch in Wallet</Button>
